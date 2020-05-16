@@ -40,6 +40,7 @@ $arrTest[] = ["cave"=>"",'index'=> null];
 foreach($arrTest as $t){
     echo poszukiwacz($t['cave']).'  => '.$t['index'].PHP_EOL;
 }
+?>
 //print_r($arrTest);
 
 
